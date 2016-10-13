@@ -2,6 +2,13 @@
 I have casually created these functions over time to teach to colleagues or to ask in interview.
 Have taken out time now to collate them and put on github.
 
+I think it's good idea to solve these javascript challenges to:
+--Check you knowlede on js
+--Learn js
+--Prepare for interview
+
+I will keep adding examples to this list as n when time permits.
+
 
 ### [Question 1. Closure](./do_u_know_js/01.%20Closure.js)
 Aim of this question/exercise is to learn concepts of closure.
