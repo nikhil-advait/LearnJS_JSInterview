@@ -3,7 +3,7 @@ I have casually created these functions over time to teach to colleagues or to a
 Have taken out time now to collate them and put on github.
 
 I think it's good idea to solve these javascript challenges to:  
---Check you knowlede on js  
+--Check your knowlede on js  
 --Learn js  
 --Prepare for interview  
 
