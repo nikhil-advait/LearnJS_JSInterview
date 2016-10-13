@@ -1,4 +1,4 @@
-### [Question 1. Closure](./1.%20Closure.js)
+### [Question 1. Closure](./01.%20Closure.js)
 Aim of this question/exercise is to learn concepts of closure.
 Q: Write adder function such that following code runs
 
@@ -8,7 +8,7 @@ Q: Write adder function such that following code runs
     console.log( add7(8) ); //prints: 15
 
 
-### Question 2. Create .map equivalent method .myMap
+### [Question 2. Create .map equivalent method .myMap](./02. myMap.js)
 Intention of exercise is know you understand callback
 Q1. Write myMap function such that:
 
@@ -19,7 +19,7 @@ Q1. Write myMap function such that:
     console.log( arr2 ); // [1,4,9]
 
 
-### Question 3. Object.create related question
+### [Question 3. Object.create related question](./03. Object.create.js)
 How to set one object prototype of other object?
 
     var obj1 = {
@@ -35,7 +35,7 @@ Q1. Write code here (someFunction) such that
 Please note you are not allow to copy the props of obj1 on obj2. In fact obj1 should become prototype of obj2
 
 
-### Question 4. Inheritance:
+### [Question 4. Inheritance:]()
 Inherit Employee class (constructor) from Person, such that
 
     var p1 = new Person('john', 'doe');
@@ -49,7 +49,7 @@ Inherit Employee class (constructor) from Person, such that
 
 
 
-### Question 5. Composition over inheritance:
+### [Question 5. Composition over inheritance:]()
 
 Q. Write code such that getInfo functionality is shared among createPerson and createEmployee
 a) Use "Composition over inheritance"
@@ -67,7 +67,7 @@ b) If you haven't heard of "Composition over inheritance" then "Solve following 
 
 
 
-### Question 6. Demostrate use of .call:
+### [Question 6. Demostrate use of .call:]()
 
   Demonstrate use of .call
 
@@ -83,7 +83,7 @@ denver'. Make sure obj is not changed in any way.
     };
 
 
-### Question 7. Make your own .bind:
+### [Question 7. Make your own .bind:]()
 
 
 //Question - Write you myBind such that following code runs. myBind should behave similar to native .bind of javscript
@@ -100,7 +100,7 @@ denver'. Make sure obj is not changed in any way.
     newFunc("colarado"); //prints: Hello my name is jenny and i am from denver, colarado"
 
 
-### Question 8. Make your own curry function:
+### [Question 8. Make your own curry function:]()
 
 Question: Write a myCurry function
 
@@ -119,7 +119,7 @@ its called currying.
 So write a myCurry function.
 
 
-### Question 9. Make your own compose function:
+### [Question 9. Make your own compose function:]()
 
 Write myCompose function such that:
 
@@ -139,7 +139,7 @@ Write myCompose function such that:
     console.log( squareAdd10Twice(2) ); //28
 
 
-### Question 10. Make event system - Part1:
+### [Question 10. Make event system - Part1:]()
 Question: Create simple event system
 Write .on and .fire method such that
 
@@ -158,7 +158,7 @@ Write .on and .fire method such that
     $.fire("move"); //should print "Hello Dude you moved over me"
 
 
-### Question 11. Make Event system - Part 2:
+### [Question 11. Make Event system - Part 2:]()
 
 Make event system which can handle multiple events of same type (e.g. multiple clicks or moves)
 e.g.
@@ -179,7 +179,7 @@ e.g.
     //"Hello Dude your clicked me"
     //"Hello Dude your clicked me second time
 
-### Question 12. Make Event system - Part 3:
+### [Question 12. Make Event system - Part 3:]()
 
 Make event system. Write .on and .fire method such that:
 
@@ -229,7 +229,8 @@ Make event system. Write .on and .fire method such that:
      collection.add(5); //Should give [1, 2, 3, 4, 5]
      collection.addAll([6,7,8); //Should give [1,2,3,4,5,6,7,8]
 
- ### Question 16. Make your own simple Promise constructor
+
+### [Question 16. Make your own simple Promise constructor]()
 Q. Write Promise constructor function such that it demonstrates use of promise (in simple terms, no chaining is required)
 e.g.
 
