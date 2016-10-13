@@ -1,4 +1,9 @@
-### [Question 1. Closure](./01.%20Closure.js)
+## Intention of this Repo/Project:
+I have casually created these functions over time to teach to colleagues or to ask in interview.
+Have taken out time now to collate them and put on github.
+
+
+### [Question 1. Closure](./do_u_know_js/01.%20Closure.js)
 Aim of this question/exercise is to learn concepts of closure.
 Q: Write adder function such that following code runs
 
@@ -8,7 +13,7 @@ Q: Write adder function such that following code runs
     console.log( add7(8) ); //prints: 15
 
 
-### [Question 2. Create .map equivalent method .myMap](./02. myMap.js)
+### [Question 2. Create .map equivalent method .myMap](./do_u_know_js/02. myMap.js)
 Intention of exercise is know you understand callback
 Write myMap function such that:
 
@@ -19,7 +24,7 @@ Write myMap function such that:
     console.log( arr2 ); // [1,4,9]
 
 
-### [Question 3. Object.create related question](./03. Object.create.js)
+### [Question 3. Object.create related question](./do_u_know_js/03. Object.create.js)
 How to set one object prototype of other object?
 
     var obj1 = {
@@ -35,7 +40,7 @@ Q1. Write code here (someFunction) such that
 Please note you are not allow to copy the props of obj1 on obj2. In fact obj1 should become prototype of obj2
 
 
-### [Question 4. Inheritance:](./04. Inheritance.js)
+### [Question 4. Inheritance:](./do_u_know_js/04. Inheritance.js)
 Inherit Employee class (constructor) from Person, such that
 
     var p1 = new Person('john', 'doe');
@@ -49,7 +54,7 @@ Inherit Employee class (constructor) from Person, such that
 
 
 
-### [Question 5. Composition over inheritance:](./05. composition over inheritance.js)
+### [Question 5. Composition over inheritance:](./do_u_know_js/05. composition over inheritance.js)
 
 Q. Write code such that getInfo functionality is shared among createPerson and createEmployee
 a) Use "Composition over inheritance"
@@ -67,7 +72,7 @@ b) If you haven't heard of "Composition over inheritance" then "Solve following 
 
 
 
-### [Question 6. Demostrate use of .call:](./06. Use of .call.js)
+### [Question 6. Demostrate use of .call:](./do_u_know_js/06. Use of .call.js)
 
   Demonstrate use of .call
 
@@ -83,7 +88,7 @@ denver'. Make sure obj is not changed in any way.
     };
 
 
-### [Question 7. Make your own .bind:](./07. Make your own .bind.js)
+### [Question 7. Make your own .bind:](./do_u_know_js/07. Make your own .bind.js)
 
 
 //Question - Write you myBind such that following code runs. myBind should behave similar to native .bind of javscript
@@ -100,7 +105,7 @@ denver'. Make sure obj is not changed in any way.
     newFunc("colarado"); //prints: Hello my name is jenny and i am from denver, colarado"
 
 
-### [Question 8. Make your own curry function:](./08. Make curry function.js)
+### [Question 8. Make your own curry function:](./do_u_know_js/08. Make curry function.js)
 
 Question: Write a myCurry function
 
@@ -119,7 +124,7 @@ its called currying.
 So write a myCurry function.
 
 
-### [Question 9. Make your own compose function:](./09. Write compose function.js)
+### [Question 9. Make your own compose function:](./do_u_know_js/09. Write compose function.js)
 
 Write myCompose function such that:
 
@@ -139,7 +144,7 @@ Write myCompose function such that:
     console.log( squareAdd10Twice(2) ); //28
 
 
-### [Question 10. Make event system - Part1:](./10. Event system part-1.js)
+### [Question 10. Make event system - Part1:](./do_u_know_js/10. Event system part-1.js)
 Question: Create simple event system
 Write .on and .fire method such that
 
@@ -158,7 +163,7 @@ Write .on and .fire method such that
     $.fire("move"); //should print "Hello Dude you moved over me"
 
 
-### [Question 11. Make Event system - Part 2:](./11. Event system part-2.js)
+### [Question 11. Make Event system - Part 2:](./do_u_know_js/11. Event system part-2.js)
 
 Make event system which can handle multiple events of same type (e.g. multiple clicks or moves)
 e.g.
@@ -179,7 +184,7 @@ e.g.
     //"Hello Dude your clicked me"
     //"Hello Dude your clicked me second time
 
-### [Question 12. Make Event system - Part 3:](./12. Event system part-3.js)
+### [Question 12. Make Event system - Part 3:](./do_u_know_js/12. Event system part-3.js)
 
 Make event system. Write .on and .fire method such that:
 
@@ -214,11 +219,11 @@ Make event system. Write .on and .fire method such that:
     //should print "Hello Dude you moved over jenny"
 
 
-### [Question 13. Write a function to make deepClone of data:](./13. deepClone.js)
+### [Question 13. Write a function to make deepClone of data:](./do_u_know_js/13. deepClone.js)
 
-### [Question 14. Write alternative to switch case construct:](./14. Alternative to Switch case statement.js)
+### [Question 14. Write alternative to switch case construct:](./do_u_know_js/14. Alternative to Switch case statement.js)
 
-### [Question 15. Subclass Array](./15. Subclass Array.js)
+### [Question 15. Subclass Array](./do_u_know_js/15. Subclass Array.js)
    Question:
   Create Subclass MyArray such that it has all methods of array and add and addAll methods.
   add method should be similar to push and addAll method should append to new Array to original array.
@@ -230,7 +235,7 @@ Make event system. Write .on and .fire method such that:
      collection.addAll([6,7,8); //Should give [1,2,3,4,5,6,7,8]
 
 
-### [Question 16. Make your own simple Promise constructor](./16. Simple Promise constructor.js)
+### [Question 16. Make your own simple Promise constructor](./do_u_know_js/16. Simple Promise constructor.js)
 Q. Write Promise constructor function such that it demonstrates use of promise (in simple terms, no chaining is required)
 e.g.
 
