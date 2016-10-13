@@ -49,7 +49,7 @@ Inherit Employee class (constructor) from Person, such that
 
 
 
-### [Question 5. Composition over inheritance:](./05 composition over inheritance.js)
+### [Question 5. Composition over inheritance:](./05. composition over inheritance.js)
 
 Q. Write code such that getInfo functionality is shared among createPerson and createEmployee
 a) Use "Composition over inheritance"
@@ -67,7 +67,7 @@ b) If you haven't heard of "Composition over inheritance" then "Solve following 
 
 
 
-### [Question 6. Demostrate use of .call:](./06 Use of .call.js)
+### [Question 6. Demostrate use of .call:](./06. Use of .call.js)
 
   Demonstrate use of .call
 
@@ -83,7 +83,7 @@ denver'. Make sure obj is not changed in any way.
     };
 
 
-### [Question 7. Make your own .bind:](./07 Make your own .bind.js)
+### [Question 7. Make your own .bind:](./07. Make your own .bind.js)
 
 
 //Question - Write you myBind such that following code runs. myBind should behave similar to native .bind of javscript
@@ -100,7 +100,7 @@ denver'. Make sure obj is not changed in any way.
     newFunc("colarado"); //prints: Hello my name is jenny and i am from denver, colarado"
 
 
-### [Question 8. Make your own curry function:](./08 Make curry function.js)
+### [Question 8. Make your own curry function:](./08. Make curry function.js)
 
 Question: Write a myCurry function
 
@@ -214,11 +214,11 @@ Make event system. Write .on and .fire method such that:
     //should print "Hello Dude you moved over jenny"
 
 
-   ### [Question 13. Write a function to make deepClone of data:](./13. deepClone.js)
+### [Question 13. Write a function to make deepClone of data:](./13. deepClone.js)
 
-   ### [Question 14. Write alternative to switch case construct:](./14. Alternative to Switch case statement.js)
+### [Question 14. Write alternative to switch case construct:](./14. Alternative to Switch case statement.js)
 
-   ### [Question 15. Subclass Array](./15. Subclass Array.js)
+### [Question 15. Subclass Array](./15. Subclass Array.js)
    Question:
   Create Subclass MyArray such that it has all methods of array and add and addAll methods.
   add method should be similar to push and addAll method should append to new Array to original array.
