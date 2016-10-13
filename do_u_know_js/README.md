@@ -1,4 +1,4 @@
-### Question 1. Closure
+[### Question 1. Closure](./closure.js)
 Aim of this question/exercise is to learn concepts of closure.
 Q: Write adder function such that following code runs
 
