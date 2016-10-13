@@ -35,7 +35,7 @@ Q1. Write code here (someFunction) such that
 Please note you are not allow to copy the props of obj1 on obj2. In fact obj1 should become prototype of obj2
 
 
-### [Question 4. Inheritance:]()
+### [Question 4. Inheritance:](./04. Inheritance.js)
 Inherit Employee class (constructor) from Person, such that
 
     var p1 = new Person('john', 'doe');
@@ -49,7 +49,7 @@ Inherit Employee class (constructor) from Person, such that
 
 
 
-### [Question 5. Composition over inheritance:]()
+### [Question 5. Composition over inheritance:](./05 composition over inheritance.js)
 
 Q. Write code such that getInfo functionality is shared among createPerson and createEmployee
 a) Use "Composition over inheritance"
@@ -67,7 +67,7 @@ b) If you haven't heard of "Composition over inheritance" then "Solve following 
 
 
 
-### [Question 6. Demostrate use of .call:]()
+### [Question 6. Demostrate use of .call:](./06 Use of .call.js)
 
   Demonstrate use of .call
 
@@ -83,7 +83,7 @@ denver'. Make sure obj is not changed in any way.
     };
 
 
-### [Question 7. Make your own .bind:]()
+### [Question 7. Make your own .bind:](./07 Make your own .bind.js)
 
 
 //Question - Write you myBind such that following code runs. myBind should behave similar to native .bind of javscript
@@ -100,7 +100,7 @@ denver'. Make sure obj is not changed in any way.
     newFunc("colarado"); //prints: Hello my name is jenny and i am from denver, colarado"
 
 
-### [Question 8. Make your own curry function:]()
+### [Question 8. Make your own curry function:](./08 Make curry function.js)
 
 Question: Write a myCurry function
 
@@ -119,7 +119,7 @@ its called currying.
 So write a myCurry function.
 
 
-### [Question 9. Make your own compose function:]()
+### [Question 9. Make your own compose function:](./09. Write compose function.js)
 
 Write myCompose function such that:
 
@@ -139,7 +139,7 @@ Write myCompose function such that:
     console.log( squareAdd10Twice(2) ); //28
 
 
-### [Question 10. Make event system - Part1:]()
+### [Question 10. Make event system - Part1:](./10. Event system part-1.js)
 Question: Create simple event system
 Write .on and .fire method such that
 
@@ -158,7 +158,7 @@ Write .on and .fire method such that
     $.fire("move"); //should print "Hello Dude you moved over me"
 
 
-### [Question 11. Make Event system - Part 2:]()
+### [Question 11. Make Event system - Part 2:](./11. Event system part-2.js)
 
 Make event system which can handle multiple events of same type (e.g. multiple clicks or moves)
 e.g.
@@ -179,7 +179,7 @@ e.g.
     //"Hello Dude your clicked me"
     //"Hello Dude your clicked me second time
 
-### [Question 12. Make Event system - Part 3:]()
+### [Question 12. Make Event system - Part 3:](./12. Event system part-3.js)
 
 Make event system. Write .on and .fire method such that:
 
@@ -214,11 +214,11 @@ Make event system. Write .on and .fire method such that:
     //should print "Hello Dude you moved over jenny"
 
 
-   ### Question 13. Write a function to make deepClone of data
+   ### [Question 13. Write a function to make deepClone of data:](./13. deepClone.js)
 
-   ### Question 14. Write alternative to switch case construct:
+   ### [Question 14. Write alternative to switch case construct:](./14. Alternative to Switch case statement.js)
 
-   ### Question 15. Subclass Array
+   ### [Question 15. Subclass Array](./15. Subclass Array.js)
    Question:
   Create Subclass MyArray such that it has all methods of array and add and addAll methods.
   add method should be similar to push and addAll method should append to new Array to original array.
@@ -230,7 +230,7 @@ Make event system. Write .on and .fire method such that:
      collection.addAll([6,7,8); //Should give [1,2,3,4,5,6,7,8]
 
 
-### [Question 16. Make your own simple Promise constructor]()
+### [Question 16. Make your own simple Promise constructor](./16. Simple Promise constructor.js)
 Q. Write Promise constructor function such that it demonstrates use of promise (in simple terms, no chaining is required)
 e.g.
 
