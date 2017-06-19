@@ -24,7 +24,6 @@ $("john").fire("click");
 
 //"Hello Dude your clicked john"
 //"Hello Dude your clicked john twice"
-//"Hello Dude you moved on john"
 
 $("jenny").fire("move");
 
