@@ -14,4 +14,4 @@ var obj = {
 
 
 //Answer
-obj.getName.call({name: 'jenny'}, 'denver');
+obj.getInfo.call({name: 'jenny'}, 'denver');
