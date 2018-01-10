@@ -1,0 +1,6 @@
+I am thinking to add more question/answers in future. This file will list them out:
+
+* Process async tasks one by one
+* Process tasks parallelly (next: with limit, next: with constant parallel task cout, next: should keep processing all tasks even if some fail and collect failed result)
+* Design Promise.all
+
